@@ -75862,7 +75862,7 @@ A.IY.prototype={
 j(a){return"\uc778\uc6d0 \uc218 : "+this.a+", \uc608\uc57d \uc2dc\uac04 : "+this.b.j(0)}}
 A.WX.prototype={
 FS(a){var s=t.z
-return this.c.FD(0,"http://127.0.0.1:4325/customer/kakao-btn-screen",A.aL(["customerIdxEncoded",a],t.N,s),s)},
+return this.c.FD(0,"https://grab-thumb.com/customer/kakao-btn-screen",A.aL(["customerIdxEncoded",a],t.N,s),s)},
 oT(){var s=0,r=A.I(t.H),q=this,p
 var $async$oT=A.J(function(a,b){if(a===1)return A.F(b,r)
 while(true)switch(s){case 0:p=q.c.P6$
@@ -75954,7 +75954,7 @@ m===$&&A.a()
 p=t.z
 o=A.aL(["customerIdxEncoded",n.a.c],t.N,p)
 s=4
-return A.Q(m.c.aeC(0,"http://127.0.0.1:4325/customer/cancel",null,null,A.anj("DELETE",null),o,p),$async$$0)
+return A.Q(m.c.aeC(0,"https://grab-thumb.com/customer/cancel",null,null,A.anj("DELETE",null),o,p),$async$$0)
 case 4:s=b.c===200?2:3
 break
 case 2:n=n.f
@@ -76016,7 +76016,7 @@ case 2:s=4
 return A.Q(o.oT(),$async$eE)
 case 4:p=q.a.c
 p.toString
-p=o.c.Sq(0,"http://127.0.0.1:4325/customer/"+p,t.z)
+p=o.c.Sq(0,"https://grab-thumb.com/customer/"+p,t.z)
 q.r=p
 s=5
 return A.Q(p.b2(new A.aeq(q),t.P).hT(new A.aer(q)),$async$eE)
