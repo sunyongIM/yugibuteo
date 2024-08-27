@@ -27,7 +27,7 @@
 
     <script>
         // The value below is injected by flutter build, do not touch.
-        var serviceWorkerVersion = "963396271";
+        var serviceWorkerVersion = "693494843";
     </script>
 <!--    <script type="text/javascript">-->
 <!--        window.flutterWebRenderer = "html";-->
@@ -67,17 +67,30 @@ Read more: https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts
 _flutter.buildConfig = {"engineRevision":"c9b9d5780da342eb3f0f5e439a7db06f7d112575","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}]};
 
 
+<!--        _flutter.loader.load({-->
+<!--            serviceWorker: {-->
+<!--                serviceWorkerVersion: serviceWorkerVersion,-->
+<!--            },-->
+<!--            onEntrypointLoaded: function(engineInitializer) {-->
+<!--                engineInitializer.initializeEngine().then(function(appRunner) {-->
+<!--                appRunner.runApp();-->
+<!--                });-->
+<!--            }-->
+<!--        });-->
+
         _flutter.loader.load({
             serviceWorker: {
                 serviceWorkerVersion: serviceWorkerVersion,
             },
             onEntrypointLoaded: async function(engineInitializer) {
+            await engineInitializer.autoStart();
 <!--            let appRunner = await engineInitializer.initializeEngine();-->
 <!--            await appRunner.runApp();-->
-                await engineInitializer.autoStart();
             }
         });
-    });
+
+
+});
 
 </script>
 </body>
