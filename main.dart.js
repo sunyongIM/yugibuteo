@@ -68000,7 +68000,7 @@ this.UC()},
 M(a){return A.ahl(new A.a9p(this),this.a.d,t.H)}}
 A.a9p.prototype={
 $2(a,b){var s,r,q,p,o,n=null
-if(b.a===B.dT)return B.xS
+if(b.a===B.dT||!this.a.a.c.a.ax)return B.xS
 else{s=this.a
 r=s.a.c
 q=s.f
