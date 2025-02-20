@@ -1,6 +1,6 @@
 {
-    "name": "line_up_register",
-    "short_name": "line_up_register",
+    "name": "yeogibuteo_mobile",
+    "short_name": "yeogibuteo_mobile",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
