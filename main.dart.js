@@ -25271,7 +25271,7 @@ this.b=!1},
 adL:function adL(a){this.a=a},
 apZ(a){var s=a.h(0,"clientName")
 a.h(0,"clientPhoneNum")
-return new A.XK(s,a.h(0,"currentBizState"),a.h(0,"lineUpNumber"),a.h(0,"images"))},
+return new A.XK(s,a.h(0,"currentBizState"),a.h(0,"grabNumber"),a.h(0,"images"))},
 XK:function XK(a,b,c,d){var _=this
 _.a=a
 _.c=b
